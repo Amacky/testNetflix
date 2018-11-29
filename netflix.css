@@ -1,0 +1,421 @@
+/*Corps de la page*/
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+/*Text et logo*/ 
+header{
+    text-align: center;
+    
+}
+header h1 a{
+    font-size: 50px;
+    color: red;   
+    text-decoration: none; 
+}
+
+header h2{
+    color: white; 
+    font-size: 80px;
+    margin: 0 0 30px;
+}
+
+header h3{
+    color: white;
+    font-size: 30px;
+    margin: 50px;
+}
+
+/*Bouton s'identifier*/ 
+.navhaut{
+    margin-left: 80%;
+}
+
+.btn{
+    background-color: #e50914;
+    color: white;
+    border: none; 
+    
+}
+.navhaut .btn{
+    border-radius: 5px;
+    font-size: 16px;
+    top: 18px;
+    right: 10px;
+    position: absolute;
+    font-weight: 400;
+    margin-right: 3%;
+    padding: 10px;
+}
+
+.navhaut a{
+    text-decoration: none;
+}
+ /*Bouton du header profitez d'un mois gratuit*/ 
+header p .btn{
+    width: 500px;
+    font-size: 30px;
+    padding: 5px;
+    width: 650px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px; 
+    padding-right: 45px;
+    text-transform: uppercase;
+}
+
+header p a{
+    text-decoration: none;
+}
+
+/* Qui contient tout le haut du site*/ 
+
+.section1{
+    background-image:url(fond.jpg);
+    height: 650px;
+    padding-top: 1px;
+}
+
+.section1 .fond header .text1{
+    padding-top: 80px;
+}
+
+.section1 .fond{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 650px; 
+    padding-top: 1px;
+}
+
+/*Petites images et textes qui accompagnent celles-ci*/
+
+.section2 .dossier{
+    box-sizing: border-box;
+    width: 33%;
+    display: inline-block; 
+    text-align: center;  
+    padding-top: 30px;
+    color: #777;    
+}
+
+.block{
+    width: 75%; 
+    margin: auto;
+    height: 200px;
+}
+
+.section2 img{
+    height: 52px;
+}
+
+.section2{
+    height: 162px;
+    background-color: #141414;
+}
+
+.section2 .dossier .border{
+    border-bottom: 5px solid red;
+    padding-bottom: 19px;
+}
+
+
+.section2 a{
+    text-decoration: none; 
+    color: white;
+}
+
+.section2 a:hover{
+    color:white; 
+    text-decoration: none;
+    border-bottom: 5px solid red;
+}
+
+/*section en dessous du header et de la section 2 (images) */ 
+
+.section3{
+    width: 70%;
+    background-color: black;
+    color: white; 
+    margin: auto; 
+    padding: 1px;
+}
+
+.section3 .text{
+    display: inline-block; 
+    box-sizing: border-box; 
+    width: 70%;
+    font-size: 1.2rem;
+}
+
+.section3 .text h2{
+    font-weight: 200;
+}
+
+.section3 #bouton{
+    display: inline-block; 
+    box-sizing: border-box; 
+    width: 30%;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+.section3 #bouton .btn3{
+    width: 300px;
+    height: 64px; 
+    color: #fff;
+    background-color: #e50914;
+    border: none; 
+    font-weight: 400; 
+    letter-spacing: .2rem;
+    padding: 20px 30px;
+}
+
+.section3 #bouton a{
+    text-decoration: none; 
+}
+
+.section3 .image3 .img3{
+    display: inline-block; 
+    box-sizing: border-box;
+    width: 33%;
+    text-align: center; 
+    vertical-align: top;
+}
+
+.section3 .image3 img{
+    width: 60%;
+    height: auto;
+    
+}
+
+.section3 .text3 .tv{
+    display: inline-block; 
+    box-sizing: border-box;
+    width: 33%;
+    text-align: center; 
+    vertical-align: top;
+}
+
+
+/*footer*/ 
+
+footer{
+    background-color:black;
+    color: #999;
+    width: 50%;
+    margin: auto; 
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+footer .paragraphe{
+    font-size: 1.2rem;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #999; 
+    
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    font-size: 0.9;
+}
+
+footer .liens{
+    display: inline-block; 
+    box-sizing: border-box;
+    width: 25%; 
+}
+
+footer .liens ul{
+    list-style: none; 
+    font-size: 0.8rem;
+    padding: 0; 
+    margin: 0; 
+}
+
+footer .liens li{
+    padding: 10px;
+}
+
+footer .liens ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: #999;
+}
+
+footer .liens ul li a:hover{
+    text-decoration: underline;
+}
+
+footer .globe{
+    border: 1px solid #999;
+    width: 220px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.fas{
+    padding: 10px;
+}
+
+footer select{
+    text-transform: uppercase;
+    width: 165px;
+    height: 48px;
+    background-color: black;
+    color: #999;
+    border: none; 
+}
+
+
+footer p{
+    font-size: 0.8rem;
+}
+
+/**Netflix page 2*/ 
+
+.tableau{
+    width: 100%;
+    margin: auto;
+    color: #999999;
+    margin-top: 20px;
+}
+
+
+.tableau .center{
+    text-align: center;
+}
+
+.tableau table{
+    width: 75%;
+    margin: auto;
+    border-spacing: 0;
+    line-height: 50px;
+}
+
+.tableau table .ligne{
+    background-color: #222222;
+    
+}
+
+table td:first-child{
+    padding-left: 20px;
+}
+
+/*** Troisiéme bloc page 2 */
+
+.section4{
+    width: 60%;
+    background-color: black;
+    color: white; 
+    margin: auto; 
+    padding: 1px;
+}
+
+
+.section4 #bouton{
+    display: inline-block; 
+    box-sizing: border-box; 
+    width: 40%;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+.section4 #bouton .btn3{
+    color: #fff;
+    background-color: #e50914;
+    border: none; 
+    font-weight: 400; 
+    letter-spacing: .2rem;
+    padding: 20px 30px;
+}
+
+.section4 #bouton a{
+    text-decoration: none; 
+}
+
+.section4 .text{
+    display: inline-block; 
+    box-sizing: border-box; 
+    width: 60%;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/**Troisième bloc page 3*/
+
+.section5{
+    width: 60%;
+    background-color: black;
+    color: white; 
+    margin: auto; 
+    padding: 1px;
+}
+
+.section5 .profitez{
+    color: #fff;
+    background-color: #e50914;
+    border: none; 
+    font-weight: 400; 
+    letter-spacing: .2rem;
+    padding: 20px 30px;
+}
+
+.section5 .annulation{
+    display: inline-block; 
+    box-sizing: border-box;
+    width: 50%; 
+    padding: 1px;
+    vertical-align: top;
+    margin-top: 100px;
+}
+.section5 .annulation a{
+    text-decoration: none;
+    margin: 50px;
+}
+
+.section5 h2{
+    width: 100%;
+    margin: 50px;
+}
+
+.section5 .annulation2{
+    width: 50%;
+    display: inline-block; 
+    box-sizing: border-box;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 320px){
+    .section1 .navhaut{
+        display: none; 
+    }
+
+    .section1 .btn{
+        width: 100%;
+    }
+
+    .section2 .block{
+        width: 100%;
+    }
+    .section2 .dossier{
+        width: 100%;
+    }
+
+    .section3 .text{
+        width: 100%;
+    }
+
+    .section3 .bouton{
+        width: 100%;
+    }
+}
+
+
